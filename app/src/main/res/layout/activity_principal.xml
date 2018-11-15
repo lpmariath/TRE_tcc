@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="luiz.mariath.lp_ma.tre_tcc.ActivityPrincipal">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/factionbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="@dimen/fab_Bottonmargin"
+                android:layout_marginEnd="@dimen/fab_Rightmargin"
+                android:layout_marginRight="@dimen/fab_Rightmargin"
+                android:clickable="true"
+                android:fadeScrollbars="true"
+                android:focusable="true"
+                android:src="@drawable/baseline_directions_car_white_24"
+                app:borderWidth="0dp"
+                app:elevation="4dp"
+                app:fabSize="normal" />
+        </android.support.design.widget.CoordinatorLayout>
+    </fragment>
+</LinearLayout>

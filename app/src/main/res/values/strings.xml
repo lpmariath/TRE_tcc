@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Projeto TRE</string>
+    <string name="title_activity_principal">Projeto TRE</string>
+    <string name="lei">Lei número 9.504 de 30 de setembro de 1997\n\nO funcionamento de alto-falante ou amplificadores de som, ressalvada a hipótese comtemplada no prágrafo seguinte, somente é permitido entre oito e vinte duas horas, sendo vedados a instalação e o uso daqueles equipamentos em distância inferior a duzentos metros:\n\n I - das sedes dos Poderes Executivo e Legislativo da União, dos Estados, do Distrito Federal e dos Municípios, das sedes dos Tribunais Judiciários, e dos quartéis e outros estabelecimentos militares;\n\n II - dos hospitais e casas de saúdes;\n\n III - das escolas, bibliotecas públicas, igrejas e teatros, quando em funcionamento</string>
+    <string name="todo">TODO</string>
+</resources>
